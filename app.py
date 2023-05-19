@@ -19,7 +19,7 @@ def init():
         model.cuda()
         print("done")
 
-    tokenizer = GPT2Tokenizer.from_pretrained("mayaeary/pygmalion-6b_dev-4bit-128g")
+    tokenizer = GPT2Tokenizer.from_pretrained("PygmalionAI/pygmalion-6b")
 
 
 # Inference is ran for every server call
